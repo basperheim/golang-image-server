@@ -1,3 +1,6 @@
+# macOS files
+**/.DS_Store
+
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
@@ -23,3 +26,15 @@ go.work.sum
 
 # env file
 .env
+
+# Ignore files in images dir
+images/*.JPG
+images/*.jpg
+images/*.png
+images/*.PNG
+images/*.jpeg
+images/*.JPEG
+images/*.gif
+images/*.GIF
+images/*.svg
+images/*.SVG
